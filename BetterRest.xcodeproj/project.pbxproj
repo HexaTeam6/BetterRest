@@ -14,6 +14,7 @@
 		387FB8822818D0A9008F1497 /* BetterRestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387FB8812818D0A9008F1497 /* BetterRestTests.swift */; };
 		387FB88C2818D0A9008F1497 /* BetterRestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387FB88B2818D0A9008F1497 /* BetterRestUITests.swift */; };
 		387FB88E2818D0A9008F1497 /* BetterRestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387FB88D2818D0A9008F1497 /* BetterRestUITestsLaunchTests.swift */; };
+		387FB89D2818D5C0008F1497 /* BetterRest.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 387FB89C2818D5C0008F1497 /* BetterRest.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		387FB8872818D0A9008F1497 /* BetterRestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterRestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		387FB88B2818D0A9008F1497 /* BetterRestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestUITests.swift; sourceTree = "<group>"; };
 		387FB88D2818D0A9008F1497 /* BetterRestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		387FB89C2818D5C0008F1497 /* BetterRest.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = BetterRest.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		387FB86F2818D0A6008F1497 /* BetterRest */ = {
 			isa = PBXGroup;
 			children = (
+				387FB89C2818D5C0008F1497 /* BetterRest.mlmodel */,
 				387FB8702818D0A6008F1497 /* BetterRestApp.swift */,
 				387FB8722818D0A6008F1497 /* ContentView.swift */,
 				387FB8742818D0A9008F1497 /* Assets.xcassets */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				387FB8732818D0A6008F1497 /* ContentView.swift in Sources */,
+				387FB89D2818D5C0008F1497 /* BetterRest.mlmodel in Sources */,
 				387FB8712818D0A6008F1497 /* BetterRestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
